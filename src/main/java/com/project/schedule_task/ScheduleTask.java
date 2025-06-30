@@ -23,7 +23,7 @@ public class ScheduleTask {
         System.out.println("Run with initial delay : " + new Date());
     }
 
-    @Scheduled(cron = "")
+    @Scheduled(cron = "0 * * * * *")
     public void testCronTask(){
         System.out.println("Current time : " + new Date());
     }
